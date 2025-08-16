@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Tiara – New Chandigarh | Sham Exotic Group</title>
+  <meta name="description" content="RERA-approved ultra luxury 4 & 5 BHK apartments at The Tiara, New Chandigarh by Sham Exotic Group. Infinity pool, world-class spa, concierge, and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {https://animekai.bz/watch/negima-3w8x#ep=2
+          fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
+          colors: {
+            brand: {
+              50:'#f7f8ff',100:'#eef0ff',200:'#dfe3ff',300:'#bfc6ff',400:'#8a98ff',500:'#5b6aff',600:'#3e4df2',700:'#2f3cd3',800:'#2833aa',900:'#232b86'
+            }
+          },
+          boxShadow: { soft: '0 10px 30px -10px rgba(0,0,0,0.25)' }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    /* Simple fade-in on scroll */
+    .reveal { opacity: 0; transform: translateY(16px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+    <!-- Sticky Discount Button -->
+    <button onclick="openModal()" class="fixed right-0 top-1/2 transform -translate-y-1/2 rotate-[-90deg] origin-bottom-right bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-sm px-4 py-2 rounded-full shadow-lg hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 z-50">
+      Unlock Discounted Price List
+    </button>
+
+<!-- Modal -->
+<div id="leadModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+  <div class="bg-white rounded-2xl shadow-2xl p-6 w-[90%] max-w-md relative animate-fadeIn border border-blue-100">
+    <button onclick="closeModal()" class="absolute top-2 right-3 text-gray-500 hover:text-black text-2xl">&times;</button>
+    <h2 class="text-2xl font-extrabold mb-2 text-center text-blue-700">Grab Discounted Price List</h2>
+    <p class="text-sm text-gray-600 text-center mb-4">
+      Fill in your details to get <span class="font-medium text-blue-600">exclusive pricing</span> and access to <span class="italic">unlisted units</span>.
+    </p>
+    <form action="https://formsubmit.co/shaurya.rawat36@gmail.com" method="POST" class="space-y-4">
+      <div>
+        <label class="block text-sm font-medium mb-1">Your Name <span class="text-red-500">*</span></label>
+        <input type="text" name="name" required placeholder="John Doe" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-400" />
+      </div>
+      <div>
+        <label class="block text-sm font-medium mb-1">Phone Number <span class="text-red-500">*</span></label>
+        <input type="tel" name="phone" required placeholder="9876543210" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-400" />
+      </div>
+      <div>
+        <label class="block text-sm font-medium mb-1">Email (optional)</label>
+        <input type="email" name="email" placeholder="you@example.com" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-400" />
+      </div>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_autoresponse" value="Thanks for your interest. We'll reach out shortly with your exclusive price list and availability.">
+      <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-2 rounded-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transition duration-300">
+        Get My Discounted Price List
+      </button>
+    </form>
+  </div>
+</div>
+<!-----------------pop-up-forum--------------------------->
+    <!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/a2e0e6ad67.js" crossorigin="anonymous"></script>
+
+<!-- Lead Capture Modal -->
+<div id="lead-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+    <div class="bg-white rounded-2xl p-8 w-[90%] max-w-md relative shadow-xl">
+        
+        <!-- Close Button -->
+        <button id="close-modal" class="absolute top-4 right-4 text-black hover:text-gray-800">
+            <i class="fas fa-times text-2xl"></i>
+        </button>
+
+        <!-- Logo -->
+        <div class="text-center mb-4">
+            <img src="./public/images/logo.webp" alt="Logo" class="w-24 mx-auto">
+        </div>
+
+        <h2 class="text-2xl font-bold text-blue-700 mb-3 text-center">Get Exclusive Listings!</h2>
+        <p class="text-gray-600 mb-6 text-center">Join our list for <span class="font-semibold text-blue-600">special prices</span> and <em>unlisted units</em>.</p>
+
+        <form id="lead-form" class="space-y-4">
+            <div>
+                <label class="block text-gray-700 font-medium mb-1">Name</label>
+                <input type="text" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
+            </div>
+            <div>
+                <label class="block text-gray-700 font-medium mb-1">Email</label>
+                <input type="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
+            </div>
+            <div>
+                <label class="block text-gray-700 font-medium mb-1">Phone Number</label>
+                <input type="tel" name="phone" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
+            </div>
+            <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold py-3 rounded-lg transition duration-300">Subscribe Now</button>
+        </form>
+    </div>
+</div>
+
+<!-- Modal Script -->
+<script>
+const leadModal = document.getElementById('lead-modal');
+const closeModalBtn = document.getElementById('close-modal');
+const leadForm = document.getElementById('lead-form');
+
+// Show after 2 seconds if not already shown in this session
+window.addEventListener('load', () => {
+    if (!sessionStorage.getItem('modalShown')) {
+        setTimeout(() => {
+            leadModal.classList.remove('hidden');
+        }, 2000);
+    }
+});
+
+// Close modal
+function closeLeadModal() {
+    leadModal.classList.add('hidden');
+    sessionStorage.setItem('modalShown', 'true');
+}
+
+closeModalBtn.addEventListener('click', closeLeadModal);
+
+// Close when clicking outside content
+leadModal.addEventListener('click', (e) => {
+    if (e.target === leadModal) {
+        closeLeadModal();
+    }
+});
+
+// On form submit
+leadForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert('Thank you! We will reach out soon.');
+    closeLeadModal();
+    leadForm.reset();
+});
+</script>
+
+
+<!-- Auto Open Lead Popup -->
+<script>
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      var leadModal = new bootstrap.Modal(document.getElementById('leadPopupModal'));
+      leadModal.show();
+    }, 2000); // 2 seconds after page load
+  });
+</script>
+<!-- JavaScript -->
+<script>
+  function openModal() {
+    document.getElementById('leadModal').classList.remove('hidden');
+  }
+  function closeModal() {
+    document.getElementById('leadModal').classList.add('hidden');
+  }
+</script>
+<!-- Top Bar -->
+<div class="w-full bg-gradient-to-r from-blue-900 via-indigo-800 to-blue-900 text-white text-sm">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 py-2">
+    
+    <!-- Left Text -->
+    <p class="hidden md:block text-white/80 tracking-wide">
+      🏡 RERA Approved • Ultra Luxury 4 & 5 BHK Apartments
+    </p>
+
+    <!-- Contact Info -->
+    <div class="flex items-center gap-6 mt-2 md:mt-0">
+      <a href="tel:+917009869291" 
+         class="flex items-center gap-2 hover:text-brand-300 transition-colors duration-300">
+        <span class="bg-white/10 p-1.5 rounded-full">📞</span>
+        +91 7009869291
+      </a>
+      
+      <a href="mailto:grandeurestate1@gmail.com" 
+         class="flex items-center gap-2 hover:text-brand-300 transition-colors duration-300">
+        <span class="bg-white/10 p-1.5 rounded-full">✉️</span>
+        grandeurestate1@gmail.com
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Header / Nav -->
+<header class="sticky top-0 z-50 bg-white/70 backdrop-blur-md border-b border-gray-200 shadow-sm">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+    
+    <!-- Logo + Brand -->
+    <a href="#home" class="flex items-center gap-3 font-extrabold text-lg md:text-xl tracking-tight">
+      <img src="./public/images/logo.webp" alt="The Tiara Logo" class="h-12 md:h-14 w-auto object-contain">
+      <div class="hidden sm:flex flex-col leading-tight">
+        <span class="text-gray-900">The <span class="text-brand-700">Tiara</span></span>
+        <span class="text-sm text-gray-500">New Chandigarh</span>
+      </div>
+    </a>
+
+    <!-- Mobile Nav Button -->
+    <button id="navToggle" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-xl border border-gray-300 hover:bg-gray-100 transition-colors" aria-label="Open Menu">
+      ☰
+    </button>
+
+    <!-- Desktop Nav -->
+    <nav id="navMenu" class="hidden md:flex items-center gap-6 text-sm font-medium">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#stats" class="nav-link">Highlights</a>
+      <a href="#amenities" class="nav-link">Amenities</a>
+      <a href="#location" class="nav-link">Location</a>
+      <a href="#developer" class="nav-link">Developer</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <!-- WhatsApp Button -->
+      <a href="https://wa.me/917009869291" target="_blank" class="ml-2 inline-flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-xl shadow hover:bg-green-600 transition-all">
+        💬 WhatsApp
+      </a>
+    </nav>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="md:hidden hidden border-t border-gray-200 bg-white/95 backdrop-blur-sm shadow-lg">
+    <div class="px-4 py-4 grid gap-3 text-sm font-medium">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#stats" class="nav-link">Highlights</a>
+      <a href="#amenities" class="nav-link">Amenities</a>
+      <a href="#location" class="nav-link">Location</a>
+      <a href="#developer" class="nav-link">Developer</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <!-- WhatsApp Button -->
+      <a href="https://wa.me/917009869291" target="_blank" class="inline-flex items-center justify-center gap-2 bg-green-500 text-white px-4 py-2 rounded-xl shadow hover:bg-green-600 transition-all">
+        💬 WhatsApp
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- Extra styling -->
+<style>
+  .nav-link {
+    position: relative;
+    color: #374151; /* gray-700 */
+    transition: color 0.3s ease;
+  }
+  .nav-link:hover {
+    color: #1d4ed8; /* brand-700 */
+  }
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #1d4ed8;
+    transition: width 0.3s ease;
+  }
+  .nav-link:hover::after {
+    width: 100%;
+  }
+</style>
+
+
+<!-- Hero -->
+<section id="home" class="relative overflow-hidden">
+  <div class="absolute inset-0 -z-10 bg-[url('./public/images/front')] bg-cover bg-center"></div>
+  <div class="absolute inset-0 -z-10 bg-black/40"></div>
+  <div class="max-w-7xl mx-auto px-4 py-28 md:py-40">
+    <div class="max-w-3xl text-white">
+      <span class="inline-block bg-white/10 backdrop-blur px-3 py-1 rounded-full text-xs md:text-sm tracking-wide mb-4">RERA Approved • Ultra Luxury 4 & 5 BHK</span>
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
+        Experience Luxury Redefined at <span class="text-brand-300">The Tiara</span>, New Chandigarh
+      </h1>
+      <p class="mt-4 md:mt-6 text-white/90 md:text-lg">
+        High-end residences by Sham Exotic Group with spacious, light-filled apartments, world-class amenities, and lush green surroundings.
+      </p>
+
+      <!-- Buttons -->
+      <div class="mt-8 flex flex-wrap gap-3">
+        <!-- WhatsApp Chat -->
+        <a href="https://wa.me/917009869291" target="_blank" 
+           class="inline-flex items-center gap-2 bg-green-500 text-white px-5 py-3 rounded-xl font-semibold shadow-soft hover:bg-green-600">
+          💬 Chat on WhatsApp
+        </a>
+
+        <!-- Call Now -->
+        <a href="tel:+917009869291"
+           class="inline-flex items-center gap-2 bg-blue-600 text-white px-5 py-3 rounded-xl font-semibold shadow-soft hover:bg-blue-700">
+          📞 Call Now
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- About / Blogs Intro -->
+  <section id="about" class="py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div class="reveal">
+        <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight">The Tiara, New Chandigarh</h2>
+        <p class="mt-4 text-gray-700 leading-relaxed">The Tiara is a high-end residential project from the <strong>Sham Exotic Group</strong>. Explore a world of high-end luxury and sophistication. Luxury apartments in The Tiara are designed to be as spacious as possible, with plenty of natural light and air-conditioning.</p>
+        <p class="mt-4 text-gray-700 leading-relaxed">With construction in full swing, the development is progressing rapidly to deliver an unparalleled lifestyle. Designed to offer a harmonious blend of modern architecture and lush green surroundings, every detail is crafted to perfection.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#contact" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-brand-700 text-white hover:bg-brand-800">Contact Us</a>
+          <a href="#location" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-300 hover:bg-gray-50">Live Close to Everything</a>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-soft bg-[url('./public/images/tiaraext.jpg')] bg-cover bg-center"></div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Quick Stats -->
+<section id="stats" class="py-16 md:py-20 bg-gradient-to-r from-gray-50 to-gray-100 border-y border-gray-200">
+  <div class="max-w-7xl mx-auto px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    
+    <!-- Card 1 -->
+    <div class="reveal group rounded-2xl bg-white p-8 shadow-md hover:shadow-xl transition-all duration-300 text-center">
+      <div class="flex justify-center items-center w-14 h-14 rounded-full bg-brand-100 text-brand-700 text-2xl mx-auto group-hover:scale-110 transition-transform">
+        🏠
+      </div>
+      <p class="mt-4 text-sm text-gray-500">Sq. Ft. Large Homes</p>
+      <p class="mt-2 text-4xl font-extrabold text-gray-900">8000</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="reveal group rounded-2xl bg-white p-8 shadow-md hover:shadow-xl transition-all duration-300 text-center">
+      <div class="flex justify-center items-center w-14 h-14 rounded-full bg-green-100 text-green-600 text-2xl mx-auto group-hover:scale-110 transition-transform">
+        🏢
+      </div>
+      <p class="mt-4 text-sm text-gray-500">Towers</p>
+      <p class="mt-2 text-4xl font-extrabold text-gray-900">6</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="reveal group rounded-2xl bg-white p-8 shadow-md hover:shadow-xl transition-all duration-300 text-center">
+      <div class="flex justify-center items-center w-14 h-14 rounded-full bg-blue-100 text-blue-600 text-2xl mx-auto group-hover:scale-110 transition-transform">
+        🏘️
+      </div>
+      <p class="mt-4 text-sm text-gray-500">Apartments for Sale</p>
+      <p class="mt-2 text-4xl font-extrabold text-gray-900">308</p>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="reveal group rounded-2xl bg-white p-8 shadow-md hover:shadow-xl transition-all duration-300 text-center">
+      <div class="flex justify-center items-center w-14 h-14 rounded-full bg-yellow-100 text-yellow-600 text-2xl mx-auto group-hover:scale-110 transition-transform">
+        🚧
+      </div>
+      <p class="mt-4 text-sm text-gray-500">Status</p>
+      <p class="mt-2 text-xl font-bold text-brand-700">Construction in Full Swing</p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Amenities -->
+<section id="amenities" class="py-16 md:py-24 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4">
+    <!-- Heading -->
+    <div class="reveal text-center max-w-3xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">
+        Amenities that Redefine Luxury Living
+      </h2>
+      <p class="mt-4 text-gray-600 text-lg">
+        Discover world-class comforts designed to elevate your lifestyle — where every detail is crafted for elegance, relaxation, and convenience.
+      </p>
+    </div>
+
+    <!-- Amenities Grid -->
+    <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Amenity Card -->
+      <div class="reveal group bg-white p-8 rounded-2xl shadow-soft border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+        <div class="flex items-center justify-center w-14 h-14 rounded-full bg-indigo-100 text-indigo-600 mb-4 group-hover:scale-110 transition-transform">
+          <i data-lucide="crown" class="w-7 h-7"></i>
+        </div>
+        <h3 class="text-xl font-semibold">Unmatched Exclusivity</h3>
+        <p class="mt-2 text-gray-600">Only two apartments per floor ensuring privacy & exclusivity.</p>
+      </div>
+
+      <div class="reveal group bg-white p-8 rounded-2xl shadow-soft border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+        <div class="flex items-center justify-center w-14 h-14 rounded-full bg-blue-100 text-blue-600 mb-4 group-hover:scale-110 transition-transform">
+          <i data-lucide="wind" class="w-7 h-7"></i>
+        </div>
+        <h3 class="text-xl font-semibold">Centralised VRV Cooling</h3>
+        <p class="mt-2 text-gray-600">Efficient cooling for every corner of your home.</p>
+      </div>
+
+      <div class="reveal group bg-white p-8 rounded-2xl shadow-soft border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+        <div class="flex items-center justify-center w-14 h-14 rounded-full bg-green-100 text-green-600 mb-4 group-hover:scale-110 transition-transform">
+          <i data-lucide="maximize" class="w-7 h-7"></i>
+        </div>
+        <h3 class="text-xl font-semibold">Spacious Balconies</h3>
+        <p class="mt-2 text-gray-600">Expansive 9 ft wide balconies with scenic views.</p>
+      </div>
+
+      <div class="reveal group bg-white p-8 rounded-2xl shadow-soft border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+        <div class="flex items-center justify-center w-14 h-14 rounded-full bg-yellow-100 text-yellow-600 mb-4 group-hover:scale-110 transition-transform">
+          <i data-lucide="columns" class="w-7 h-7"></i>
+        </div>
+        <h3 class="text-xl font-semibold">Italian Marble Flooring</h3>
+        <p class="mt-2 text-gray-600">Elegant flooring for timeless beauty and luxury.</p>
+      </div>
+
+      <div class="reveal group bg-white p-8 rounded-2xl shadow-soft border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+        <div class="flex items-center justify-center w-14 h-14 rounded-full bg-pink-100 text-pink-600 mb-4 group-hover:scale-110 transition-transform">
+          <i data-lucide="building" class="w-7 h-7"></i>
+        </div>
+        <h3 class="text-xl font-semibold">70,000 sqft Clubhouse</h3>
+        <p class="mt-2 text-gray-600">A grand clubhouse with premium lifestyle facilities.</p>
+      </div>
+
+      <div class="reveal group bg-white p-8 rounded-2xl shadow-soft border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+        <div class="flex items-center justify-center w-14 h-14 rounded-full bg-red-100 text-red-600 mb-4 group-hover:scale-110 transition-transform">
+          <i data-lucide="parking-square" class="w-7 h-7"></i>
+        </div>
+        <h3 class="text-xl font-semibold">Double Basement Parking</h3>
+        <p class="mt-2 text-gray-600">Ample space with convenient double-level parking.</p>
+      </div>
+
+      <div class="reveal group bg-white p-8 rounded-2xl shadow-soft border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+        <div class="flex items-center justify-center w-14 h-14 rounded-full bg-cyan-100 text-cyan-600 mb-4 group-hover:scale-110 transition-transform">
+          <i data-lucide="droplet" class="w-7 h-7"></i>
+        </div>
+        <h3 class="text-xl font-semibold">Heat Pumps</h3>
+        <p class="mt-2 text-gray-600">Eco-friendly heating systems for every apartment.</p>
+      </div>
+
+      <div class="reveal group bg-white p-8 rounded-2xl shadow-soft border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+        <div class="flex items-center justify-center w-14 h-14 rounded-full bg-purple-100 text-purple-600 mb-4 group-hover:scale-110 transition-transform">
+          <i data-lucide="utensils-crossed" class="w-7 h-7"></i>
+        </div>
+        <h3 class="text-xl font-semibold">Modular Kitchen</h3>
+        <p class="mt-2 text-gray-600">Equipped with premium appliances for a modern lifestyle.</p>
+      </div>
+
+      <div class="reveal group bg-white p-8 rounded-2xl shadow-soft border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+        <div class="flex items-center justify-center w-14 h-14 rounded-full bg-orange-100 text-orange-600 mb-4 group-hover:scale-110 transition-transform">
+          <i data-lucide="shower-head" class="w-7 h-7"></i>
+        </div>
+        <h3 class="text-xl font-semibold">Grohe Sanitaryware</h3>
+        <p class="mt-2 text-gray-600">Luxurious fittings for premium washrooms.</p>
+      </div>
+
+      <div class="reveal group bg-white p-8 rounded-2xl shadow-soft border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+        <div class="flex items-center justify-center w-14 h-14 rounded-full bg-teal-100 text-teal-600 mb-4 group-hover:scale-110 transition-transform">
+          <i data-lucide="concierge-bell" class="w-7 h-7"></i>
+        </div>
+        <h3 class="text-xl font-semibold">Valet & Laundry Services</h3>
+        <p class="mt-2 text-gray-600">24x7 convenience at your doorstep.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<script>lucide.createIcons();</script>
+
+  <!-- Brochure CTA -->
+  
+
+
+
+<!---------------------------Gallery Section-------------------------------------->
+
+<section id="gallery" class="py-16 px-5 bg-white">
+  <div class="max-w-6xl mx-auto">
+    <!-- Heading -->
+    <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-6">
+      Project Gallery
+    </h2>
+    <p class="text-center text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-14">
+      Explore the stunning design, architecture, and luxury elements of Tiara . These images capture the essence of premium living.
+    </p>
+
+    <!-- Responsive Gallery Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Image Item -->
+      <div class="group relative overflow-hidden rounded-xl shadow-lg">
+        <img src="./public/images/ext" alt="Gallery Image" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500">
+        <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+          <span class="text-white text-sm font-semibold">Exterior view</span>
+        </div>
+      </div>
+
+      <!-- Repeat as needed -->
+      <div class="group relative overflow-hidden rounded-xl shadow-lg">
+        <img src="./public/images/front2.webp" alt="Gallery Image" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500">
+        <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+          <span class="text-white text-sm font-semibold">front view</span>
+        </div>
+      </div>
+
+      <div class="group relative overflow-hidden rounded-xl shadow-lg">
+        <img src="./public/images/bedroom1.webp" alt="Gallery Image" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500">
+        <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+          <span class="text-white text-sm font-semibold">Master Bedroom</span>
+        </div>
+      </div>
+
+      <div class="group relative overflow-hidden rounded-xl shadow-lg">
+        <img src="./public/images/hall.avif" alt="Gallery Image" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500">
+        <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+          <span class="text-white text-sm font-semibold">Livng Room</span>
+        </div>
+      </div>
+
+      <div class="group relative overflow-hidden rounded-xl shadow-lg">
+        <img src="./public/images/living-room-with-blue-sofa-gold-coffee-table-1024x683.webp" alt="Gallery Image" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500">
+        <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+          <span class="text-white text-sm font-semibold">Living room</span>
+        </div>
+      </div>
+      
+      <div class="group relative overflow-hidden rounded-xl shadow-lg">
+        <img src="./public/images/living.webp" alt="Gallery Image" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500">
+        <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+          <span class="text-white text-sm font-semibold">Living Room</span>
+        </div>
+      </div>
+      
+      <div class="group relative overflow-hidden rounded-xl shadow-lg">
+        <img src="./public/images/living2.webp" alt="Gallery Image" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500">
+        <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+          <span class="text-white text-sm font-semibold">Living Room</span>
+        </div>
+      </div>
+      <div class="group relative overflow-hidden rounded-xl shadow-lg">
+        <img src="./public/images/gym.webp" alt="Gallery Image" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500">
+        <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+          <span class="text-white text-sm font-semibold">gym</span>
+        </div>
+      </div>
+
+    <!-- CTA -->
+    <div class="text-center mt-14">
+      <a href="https://wa.me/917009869291?text=I%20want%20to%20book%20a%20site%20visit%20for%20Marbella%20Royce"
+         target="_blank"
+         class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full shadow-lg text-lg font-semibold transition">
+        📸 Book a Site Visit to See It Live
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Location / Live Close to Everything -->
+<section id="location" class="py-20 md:py-28 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 relative z-10">
+    
+    <!-- Heading -->
+    <div class="reveal text-center max-w-3xl mx-auto">
+      <h2 class="text-3xl md:text-5xl font-extrabold text-gray-900">
+        Live Close to Everything
+      </h2>
+      <p class="mt-4 text-gray-600 text-lg md:text-xl">
+        Nestled in the heart of New Chandigarh with unmatched access to healthcare, education, leisure, and nature.
+      </p>
+    </div>
+
+    <!-- Location Grid -->
+    <div class="mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Card -->
+      <div class="reveal group bg-white/80 backdrop-blur-md p-6 rounded-2xl border border-gray-200 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <div class="flex items-center gap-4">
+          <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-red-100 text-red-600 group-hover:scale-110 transition-transform">
+            <i data-lucide="hospital" class="w-7 h-7"></i>
+          </div>
+          <div>
+            <p class="text-sm text-gray-500">PGI, Chandigarh</p>
+            <p class="mt-1 text-2xl font-bold text-gray-900">2 Minutes</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal group bg-white/80 backdrop-blur-md p-6 rounded-2xl border border-gray-200 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <div class="flex items-center gap-4">
+          <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-indigo-100 text-indigo-600 group-hover:scale-110 transition-transform">
+            <i data-lucide="graduation-cap" class="w-7 h-7"></i>
+          </div>
+          <div>
+            <p class="text-sm text-gray-500">Punjab University</p>
+            <p class="mt-1 text-2xl font-bold text-gray-900">2 Minutes</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal group bg-white/80 backdrop-blur-md p-6 rounded-2xl border border-gray-200 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <div class="flex items-center gap-4">
+          <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-pink-100 text-pink-600 group-hover:scale-110 transition-transform">
+            <i data-lucide="activity" class="w-7 h-7"></i>
+          </div>
+          <div>
+            <p class="text-sm text-gray-500">Bhabha Cancer Hospital</p>
+            <p class="mt-1 text-2xl font-bold text-gray-900">1 Minute</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal group bg-white/80 backdrop-blur-md p-6 rounded-2xl border border-gray-200 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <div class="flex items-center gap-4">
+          <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-yellow-100 text-yellow-600 group-hover:scale-110 transition-transform">
+            <i data-lucide="shopping-bag" class="w-7 h-7"></i>
+          </div>
+          <div>
+            <p class="text-sm text-gray-500">Nexus Elante Mall</p>
+            <p class="mt-1 text-2xl font-bold text-gray-900">15 Minutes</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal group bg-white/80 backdrop-blur-md p-6 rounded-2xl border border-gray-200 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <div class="flex items-center gap-4">
+          <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-blue-100 text-blue-600 group-hover:scale-110 transition-transform">
+            <i data-lucide="waves" class="w-7 h-7"></i>
+          </div>
+          <div>
+            <p class="text-sm text-gray-500">Sukhna Lake</p>
+            <p class="mt-1 text-2xl font-bold text-gray-900">5 Minutes</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal group bg-white/80 backdrop-blur-md p-6 rounded-2xl border border-gray-200 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <div class="flex items-center gap-4">
+          <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-green-100 text-green-600 group-hover:scale-110 transition-transform">
+            <i data-lucide="hotel" class="w-7 h-7"></i>
+          </div>
+          <div>
+            <p class="text-sm text-gray-500">Oberoi Sukhvillas</p>
+            <p class="mt-1 text-2xl font-bold text-gray-900">5 Minutes</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Background accent -->
+  <div class="absolute inset-0 bg-gradient-to-br from-brand-50 via-transparent to-indigo-50 opacity-60"></div>
+</section>
+
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<script>lucide.createIcons();</script>
+
+
+  <!-- Elegant Living & Unmatched Amenities copy blocks -->
+  <section class="py-16 md:py-24 bg-gray-50 border-y border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
+      <div class="reveal">
+        <h3 class="text-2xl md:text-3xl font-extrabold">Elegant Living</h3>
+        <p class="mt-4 text-gray-700">Discover the epitome of luxury with our ultra-modern homes. Experience unparalleled comfort, breathtaking views, and meticulously crafted interiors designed for your ultimate satisfaction.</p>
+      </div>
+      <div class="reveal">
+        <h3 class="text-2xl md:text-3xl font-extrabold">Unmatched Amenities</h3>
+        <p class="mt-4 text-gray-700">Indulge in world-class facilities like infinity pools, lush gardens, and exclusive clubhouses. Every detail is tailored to elevate your lifestyle to extraordinary heights.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Developer -->
+  <section id="developer" class="py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div class="reveal">
+        <h2 class="text-3xl md:text-4xl font-extrabold">About the Developer</h2>
+        <p class="mt-4 text-gray-700"><strong>The Sham Exotic Group</strong></p>
+        <p class="mt-2 text-gray-700">Sham Jewellers is a three decade old brand, which over the years rose to being the leading jewellery house in North India. Right from its start, it stood synonymous with “trust, goodwill, fair prices and customer centric services and policies”. This image has only been enhanced over the years, and so, today, that first humble store of jewels stands transformed into a palatial six storey jewellery superstore spread over 30,000 sq. ft.</p>
+        <p class="mt-4 text-gray-700">With a legacy that spans over 45 years and with more than 10,000 dwelling units constructed and delivered, the Exotic Group has been at the forefront of Real Estate development in the tri-city region of Chandigarh / Panchkula and Mohali and is synonymous with “trust, commitment, goodwill, customer satisfaction, timely and quality deliverance of its promise & project”. Exotic Group has delivered multiple state-of-the-art group housing projects, rated in the top five positions in each of their spheres.</p>
+      </div>
+      <div class="reveal">
+        <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-soft bg-[url('./public/images/group.jpg')] bg-cover bg-center"></div>
+      </div>
+    </div>
+  </section>
+<!-----------------------------------Siteplan floorplans and Brochure--------------------------------->     
+
+<!-- Plans & Brochure Section -->
+<section class="px-5 py-16 bg-gray-100">
+  <div class="max-w-6xl mx-auto text-center mb-12">
+    <h2 class="text-3xl font-bold mb-2">Explore Our Plans & Brochure</h2>
+    <p class="text-gray-600">Browse the complete site layout, floor designs, and download the brochure for detailed specifications.</p>
+  </div>
+
+  <div class="grid gap-8 grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto">
+    <!-- Site Plan Card -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+      <img src="./public/images/siteplan" alt="Site Plan" class="w-full h-64 object-cover">
+      <div class="p-5 flex flex-col items-center">
+        <h3 class="text-xl font-semibold mb-3">Site Plan</h3>
+        <a href="./pdfs/siteplan.pdf" download class="inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Download PDF</a>
+      </div>
+    </div>
+
+    <!-- Floor Plans Card -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+      <img src="./public/images/tower-A-Layout" alt="Floor Plans" class="w-full h-64 object-cover">
+      <div class="p-5 flex flex-col items-center">
+        <h3 class="text-xl font-semibold mb-3">tower-A-Layout</h3>
+        <a href="./pdfs/floorplans.pdf" download class="inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Download PDF</a>
+      </div>
+    </div>
+
+    <!-- Floor Plans Card -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+      <img src="./public/images/tower-b-layout" alt="Floor Plans" class="w-full h-64 object-cover">
+      <div class="p-5 flex flex-col items-center">
+        <h3 class="text-xl font-semibold mb-3">Tower-B-Layout</h3>
+        <a href="./pdfs/floorplans.pdf" download class="inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Download PDF</a>
+      </div>
+    </div>
+
+    <!-- Floor Plans Card -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+      <img src="./public/images/tower-c-layout" alt="Floor Plans" class="w-full h-64 object-cover">
+      <div class="p-5 flex flex-col items-center">
+        <h3 class="text-xl font-semibold mb-3">Tower-C-Layout</h3>
+        <a href="./pdfs/floorplans.pdf" download class="inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Download PDF</a>
+      </div>
+    </div>
+
+    <!-- Floor Plans Card -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+      <img src="./public/images/tower-d-layout" alt="Floor Plans" class="w-full h-64 object-cover">
+      <div class="p-5 flex flex-col items-center">
+        <h3 class="text-xl font-semibold mb-3">Tower-D-Layout</h3>
+        <a href="./pdfs/floorplans.pdf" download class="inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Download PDF</a>
+      </div>
+    </div>
+
+
+    <!-- Floor Plans Card -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+      <img src="./public/images/tower-e-layout" alt="Floor Plans" class="w-full h-64 object-cover">
+      <div class="p-5 flex flex-col items-center">
+        <h3 class="text-xl font-semibold mb-3">tower-E-Layout</h3>
+        <a href="./pdfs/floorplans.pdf" download class="inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Download PDF</a>
+      </div>
+    </div>
+
+    <!-- Floor Plans Card -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+      <img src="./public/images/tower-f-layout" alt="Floor Plans" class="w-full h-64 object-cover">
+      <div class="p-5 flex flex-col items-center">
+        <h3 class="text-xl font-semibold mb-3">tower-F-Layout</h3>
+        <a href="./pdfs/floorplans.pdf" download class="inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Download PDF</a>
+      </div>
+    </div>
+
+
+
+    <!-- Brochure Card -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+      <img src="./public/images/pdflogo.webp" alt="Brochure Preview" class="w-full h-64 object-cover filter blur-sm">
+      <div class="p-5 flex flex-col items-center">
+        <h3 class="text-xl font-semibold mb-3">Brochure</h3>
+        <a href="./public/images/" download class="inline-block bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Download PDF</a>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Contact -->
+  <section id="contact" class="py-16 md:py-24 bg-gray-50 border-y border-gray-200">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="reveal text-center max-w-3xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-extrabold">Book Site Visit</h2>
+        <p class="mt-4 text-gray-700">Ownership after profile review only. Reach out to our team for curated assistance.</p>
+      </div>
+
+      <div class="mt-10 grid lg:grid-cols-2 gap-8">
+        <!-- Contact Cards -->
+        <div class="grid sm:grid-cols-2 gap-6">
+          <div class="reveal rounded-2xl bg-white p-6 shadow-soft border border-gray-100">
+            <p class="text-sm text-gray-500">01. Phone Number</p>
+            <a href="tel:+919991112450" class="mt-2 block text-2xl font-bold hover:underline">+91-7009869291</a>
+          </div>
+          <div class="reveal rounded-2xl bg-white p-6 shadow-soft border border-gray-100">
+            <p class="text-sm text-gray-500">02. Our Email</p>
+            <a href="mailto:contact@thetiarabysham.com" class="mt-2 block text-1xl font-bold hover:underline">grandeurestate1@gmail.com</a>
+          </div>
+          <div class="reveal rounded-2xl bg-white p-6 shadow-soft border border-gray-100">
+            <p class="text-sm text-gray-500">03. Our Address</p>
+            <p class="mt-2 text-lg font-semibold">Plot GH2, Medicity, New Chandigarh, Punjab 140901</p>
+          </div>
+          <div class="reveal rounded-2xl bg-white p-6 shadow-soft border border-gray-100">
+            <p class="text-sm text-gray-500">04. Our Hours</p>
+            <p class="mt-2 text-lg font-semibold">Mon - Fri: 9 am - 6 pm<br/>Sat & Sun: 10 am - 7 pm</p>
+          </div>
+        </div>
+
+        <!-- Simple Form (non-functional stub) -->
+        <form class="reveal bg-white rounded-2xl shadow-soft border border-gray-100 p-6 grid gap-4" onsubmit="event.preventDefault(); alert('Thanks! Our team will contact you shortly.');">
+          <div class="grid md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm text-gray-600">Full Name</label>
+              <input required type="text" class="mt-1 w-full rounded-xl border-gray-300 focus:border-brand-600 focus:ring-brand-600" placeholder="Your name" />
+            </div>
+            <div>
+              <label class="block text-sm text-gray-600">Phone</label>
+              <input required type="tel" class="mt-1 w-full rounded-xl border-gray-300 focus:border-brand-600 focus:ring-brand-600" placeholder="+91-XXXXXXXXXX" />
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm text-gray-600">Email</label>
+            <input type="email" class="mt-1 w-full rounded-xl border-gray-300 focus:border-brand-600 focus:ring-brand-600" placeholder="you@example.com" />
+          </div>
+          <div>
+            <label class="block text-sm text-gray-600">Message</label>
+            <textarea rows="4" class="mt-1 w-full rounded-xl border-gray-300 focus:border-brand-600 focus:ring-brand-600" placeholder="I’d like to book a site visit on..."></textarea>
+          </div>
+          <div class="flex items-center gap-3">
+            <button class="inline-flex items-center gap-2 bg-brand-700 text-white px-5 py-3 rounded-xl font-semibold shadow-soft hover:bg-brand-800">Submit</button>
+            <a href="https://maps.google.com/?q=Plot+GH2,+Medicity,+New+Chandigarh,+Punjab+140901" target="_blank" class="text-brand-700 hover:underline">Open in Google Maps →</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white">
+    <div class="max-w-7xl mx-auto px-4 py-10">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-sm text-gray-600"> Marbella Royce is a premier real estate developer bringing luxurious yet affordable residential and commercial properties to life. With over 25 years of excellence, we shape communities and redefine skylines.</p><br >
+         <p>CPRERA: PBRERA-HRY06-REA0254 </p><br>
+
+        <a href="#home" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg border border-gray-300 hover:bg-gray-50">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS: mobile menu, scroll reveal, and brochure stub -->
+  <script>
+    // Mobile nav
+    const navToggle = document.getElementById('navToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    navToggle?.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Brochure link placeholder (replace with real PDF URL)
+    const brochureURL = '#'; // TODO: replace with actual brochure PDF link e.g. '/files/the-tiara-brochure.pdf'
+    document.querySelectorAll('#brochureLink1').forEach(a => {
+      a.href = brochureURL;
+      a.addEventListener('click', (e) => {
+        if (brochureURL === '#') {
+          e.preventDefault();
+          alert('Brochure coming soon. Please contact us for details.');
+        }
+      })
+    });
+  </script>
+</body>
+</html>
